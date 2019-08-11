@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "cover":"../../components/cover/cover",
+    "addShop":"../../components/addShop/addShop",
+    "bussines":"../../components/bussines/bussines",
+    "assess":"../../components/assess/assess"
+  }
+}

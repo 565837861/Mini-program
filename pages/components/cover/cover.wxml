@@ -1,0 +1,45 @@
+<!--pages/components/cover/cover.wxml-->
+<view class='cover-container' hidden="{{show}}">
+   <view class="cover">
+     <view class='cover-name'>
+       <text>{{list.name}}</text>
+       <view class='star'>
+         <image width='48rpx' src='../../assets/img/star48_on@2x.png'></image>
+         <image width='48rpx' src='../../assets/img/star48_on@2x.png'></image>
+         <image width='48rpx' src='../../assets/img/star48_on@2x.png'></image>
+         <image width='48rpx' src='../../assets/img/star48_on@2x.png'></image>
+         <image width='48rpx' src='../../assets/img/star48_off@2x.png'></image>
+       </view>
+       <view class='title'>
+         <text>优惠信息</text>
+         <view class='t-content'> 
+            <view class="el">
+              <image src='../../assets/img/decrease_1@2x.png'></image><text>{{list.supports[0].description}}</text>
+            </view>
+             <view class="el">
+              <image src='../../assets/img/discount_2@2x.png'></image><text>{{list.supports[1].description}}</text>
+            </view>
+             <view class="el">
+              <image src='../../assets/img/discount_2@2x.png'></image><text>{{list.supports[2].description}}</text>
+            </view>
+             <view class="el">
+              <image src='../../assets/img/special_2@2x.png'></image><text>{{list.supports[3].description}}</text>
+            </view>
+             <view class="el">
+              <image src='../../assets/img/special_2@2x.png'></image><text>{{list.supports[4].description}}</text>
+            </view>
+         </view>
+       </view>
+       <view class='title'>
+         <text>商家公告</text>
+         <view class="i-content">
+           <text>{{list.bulletin}}</text>
+         </view>
+       </view>
+     </view>
+     <view>{{clist}}</view>
+     <view class='close'>
+       <text bindtap="Coverhide">x</text>
+     </view>
+   </view>
+</view>

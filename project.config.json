@@ -4,18 +4,18 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
 		"autoAudits": false,
-		"coverView": true
+		"checkInvalidKey": true
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.7.7",
 	"appid": "wxaf1e13a4ef35ce39",
-	"projectname": "%E5%B0%8F%E7%A8%8B%E5%BA%8F",
+	"projectname": "miniprogram-test-1",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},

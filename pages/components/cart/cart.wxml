@@ -1,0 +1,11 @@
+<!--pages/components/cart/cart.wxml-->
+<!-- <view class='cart'>
+    <view class="list">
+      <view>购物车</view>
+    </view>
+    <view class="deep">
+       <view class="bigcircle">
+         <view class="smallcircle"></view>
+       </view>
+    </view>
+</view> -->

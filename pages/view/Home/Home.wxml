@@ -1,0 +1,54 @@
+<view class="log-list">
+   <view class="header" style="background-image: url('../../assets/img/789_03.jpg')">
+      <view class="top">
+          <view class="header-img">
+            <!-- <image src="../img/brand@2x.png"></image>  -->
+            <image src="../../assets/img/789_03.jpg"></image>
+          </view>
+          <view class="big">
+             <!-- name -->
+             <view bindtap="Covershow" class="pin">
+                <image src="../../assets/img/brand@2x.png"></image> 
+                <block>粥品香坊（回龙观）</block>
+             </view> 
+             <!-- 蜂鸟转送  -->
+             <view style="font-size:30rpx;margin:10rpx 0 10rpx; 0">
+                <block>蜂鸟专送</block> / <block>38分钟送达</block>
+             </view>
+             <!-- 支付 -->
+             <view class="alipay" style="font-size:25rpx"> 
+                <view class="cut">
+                  <image src="../../assets/img/decrease_2@2x.png"></image>
+                  <block>在线支付满28减5</block>
+                </view>
+                <view class="length" bindtap="Covershow">5个 ></view>
+             </view>               
+          </view>
+      </view>
+      <view class="notice">
+          <image src="../../assets/img/bulletin@2x.png" class="notice-tex"></image>
+          <text class="ing" bindtap="Covershow">粥品香坊其烹饪料的秘方源于中国千年古法，在融合...</text>
+          <text class="dd">></text>
+      </view>
+      <view class="change">
+          <text bindtap="goods" class="ss">商品</text>
+          <text bindtap="assess" class="ss">评价</text>
+          <text bindtap="bussiness" class="ss">商家</text>
+      </view> 
+      <view hidden="{{flag1}}" class='goods'>
+        <addShop></addShop>
+      </view>
+      <view hidden="{{flag2}}">
+        <assess></assess>
+      </view>
+      <view hidden="{{flag3}}">
+        <bussines></bussines>
+      </view>
+   </view>
+   <!-- 遮罩组件 -->
+   <cart-list style="z-index:99"></cart-list>
+   <cover id="cover"></cover>
+
+
+
+</view>

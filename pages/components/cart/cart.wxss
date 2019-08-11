@@ -1,0 +1,34 @@
+/* pages/components/cart/cart.wxss */
+.cart{
+  width: 100%;
+  /* height: 611rpx; */
+  position: absolute;
+  background: white;
+  bottom: 0rpx;
+}
+.deep{
+  width: 100%;
+  height: 100rpx;
+  background: black;
+  position: absolute;
+  bottom: 0rpx;
+}
+.bigcircle{
+  width: 116rpx;
+  height: 116rpx;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 16rpx;
+  left: 36rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+}
+.smallcircle{
+    width: 88rpx;
+    height: 88rpx;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.4);
+}
+
